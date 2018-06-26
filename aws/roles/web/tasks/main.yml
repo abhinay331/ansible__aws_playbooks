@@ -1,0 +1,6 @@
+---
+- name: Copy the files
+  copy: src=files/about.html dest=/var/www/html owner=root group=root mode=0600
+  
+- name: Copy the file
+  copy: src=files/index.html dest=/var/www/html owner=root group=root mode=0644

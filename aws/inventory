@@ -1,0 +1,12 @@
+[tag_ansible_group_webservers]
+webserver1
+webserver2
+		
+[tag_ansible_group_dbservers]
+dbserver
+		
+[tag_ansible_group_lbservers]
+lbserver
+		
+[tag_ansible_group_monitoring]
+nagios

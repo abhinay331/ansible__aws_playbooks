@@ -9,9 +9,11 @@
 
 # gather facts from monitoring nodes for iptables rules
 - hosts: tag_ansible_group_monitoring
+  remote_user: root
   tasks: []
 
 - hosts: tag_ansible_group_webservers
+  remote_user: root
   serial: 1
 
   # These are the tasks to run before applying updates:
